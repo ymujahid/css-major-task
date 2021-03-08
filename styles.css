@@ -1,0 +1,182 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: hsl(218, 28%, 13%);
+}
+
+h1, h2, h3 {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+
+p {
+    color: white;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+.navbar {
+    padding: 50px;
+}
+
+.navbar img {
+    float: left;
+}
+
+.right-navbar {
+    float: right;
+}
+
+.right-navbar p {
+    display: inline-block;
+    margin: 10px;
+}
+
+/* INTRO SECTION */
+
+.container {
+    width: 60%;
+    margin: 40px auto;
+}
+
+.intro-section {
+    text-align: center;
+}
+
+.intro-section p {
+    line-height: 25px;
+}
+
+.intro-section img {
+    width: 100%;
+}
+
+.btn {
+    text-decoration: none;
+    background: hsl(198, 60%, 50%);
+    border-radius: 25px;
+    display: inline-block;
+    width: 60%;
+    height: 50px;
+    color: white;
+    font-size: 14px;
+}
+
+.btn:hover {
+    background: white;
+}
+
+.btn p:hover {
+    color: hsl(198, 60%, 50%);
+}
+
+/* FEATURES SECTION */
+
+.features-flex {
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 10%;
+}
+
+@media screen and (max-width: 400px) {
+    .features-flex {
+        flex-flow: column wrap;
+    }
+}
+
+.feature {
+    width: 50%;
+    padding: 5%;
+    text-align: center;
+}
+
+@media screen and (max-width: 375px){
+    .feature {
+        width: 100%;
+    }
+}
+
+.big-container {
+    width: 90%;
+    margin: auto;
+}
+
+.big-container img {
+    width: 50%;
+    float: left;
+}
+
+@media (max-width: 375px) {
+    .big-container img {
+        width: 100%;
+    }
+}
+
+.productive-text {
+    float: right;
+    width: 50%;
+    vertical-align: middle;
+    padding: 10%;
+}
+
+@media screen and (max-width: 375px) {
+    .productive-text {
+        width: 100%;
+    }
+}
+
+.productive-text h2 {
+    margin: 0;
+}
+
+.productive-text a {
+    color: hsl(176, 68%, 64%);
+}
+
+.arrow-icon {
+    width: 24px;
+    display: inline-block;
+}
+
+.clr {
+    clear: both;
+}
+
+/* TESTIMONIALS */
+.testimonials {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 2%;
+}
+
+.testimonial {
+    background: hsl(219, 30%, 18%);
+}
+
+.text {
+    text-align: center;
+    margin: 2%;
+}
+
+.profile-img {
+    width: 50%;
+    margin: 0 0 0 2%;
+    padding: 0;
+}
+
+.profile-img img {
+    border-radius: 50%;
+    float: left;
+}
+
+.name {
+    float: right;
+    vertical-align: middle;
+}
+
