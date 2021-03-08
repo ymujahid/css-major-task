@@ -243,10 +243,45 @@ p {
 }
 
 .footer {
+    padding: 10% 5%;
     background: hsl(216, 53%, 9%);
     display: grid;
     grid-template-rows: 1fr 2fr;
 }
+
+.row-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+    grid-column-gap: 3%;
+}
+
+.location-message p {
+    position: relative;
+    bottom: 25%;
+    left: 10%;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: 0.5fr 2fr;
+    padding-left: 2%;
+}
+
+.row p {
+    margin-top: -1%;
+}
+
+.column5 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.icon {
+    border-radius: 100%;
+    color: white;
+    border: white 4px;
+}
+
 
 .attribution {
     background: hsl(216, 53%, 9%);
